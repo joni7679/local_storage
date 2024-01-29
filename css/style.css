@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 5px rgb(118, 116, 116);
+
+}
+
+.container form {
+    padding: 15px;
+}
+
+.container form input {
+    margin-top: 15px;
+    padding: 8px;
+    border: 1px solid gray;
+    outline: none;
+    width: 90%;
+    border-radius: 8px;
+}
+
+.btn {
+    cursor: pointer;
+    text-transform: capitalize;
+    background-color: rgb(28, 28, 226);
+    color: white;
+}
+
+.result {
+    width: 300px;
+    height: 200px;
+    box-shadow: 2px 2px 2px 5px rgb(171, 164, 164);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 9px;
+    position: relative;
+}
+
+#clear{
+    padding: 14px;
+    background-color: rgb(3, 65, 65);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: auto;
+    color: #fff;
+}
+.result h1 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.result span {
+    color: #fff;
+    background: #000;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.result-main-div {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    flex-wrap: wrap;
+}
